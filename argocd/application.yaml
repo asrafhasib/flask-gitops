@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_GITHUB_USERNAME/flask-gitops.git
+    repoURL: https://github.com/asrafhasib/flask-gitops.git
     targetRevision: main
     path: apps/flask-app
   destination:
