@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: ghcr.io/YOUR_GITHUB_USERNAME/flask-cicd-app:initial
+          image: ghcr.io/asrafhasib/flask-cicd-app:initial
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
