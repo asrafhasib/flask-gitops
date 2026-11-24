@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: ghcr.io/asrafhasib/flask-cicd-app:79f40fb9e5b5b01779c3399ad27718691d3e1c6a
+          image: ghcr.io/asrafhasib/flask-cicd-app:5888da1dd37b0269fd5e4014d15a059e803cf92f
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
@@ -33,7 +33,7 @@ spec:
             - name: APP_ENV
               value: "kind"
             - name: APP_VERSION
-              value: "79f40fb9e5b5b01779c3399ad27718691d3e1c6a"
+              value: "5888da1dd37b0269fd5e4014d15a059e803cf92f"
           readinessProbe:
             httpGet:
               path: /ready
